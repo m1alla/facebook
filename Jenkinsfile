@@ -11,7 +11,7 @@ parameters {
 
      stages{
                             stage('Checkout'){
-                                      steps
+                                      steps{
                                       {
 
 
@@ -20,9 +20,9 @@ parameters {
                                       }
 
                              stage('Build'){
-                               steps
+                               steps{
                                  script{
-                                   sh 'mvn -f /var/lib/jenkins/workspace/maven-pipeline/pom.xml install'
+sh ' /etc/maven/apache-maven-3.8.4/bin/mvn -f /var/lib/jenkins/workspace/Maven-Jenkins/pom.xml install'
                                  }
                                }
                              }
