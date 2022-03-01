@@ -10,8 +10,8 @@ parameters {
            }
 
      stages
-                            stage('Checkout'){
-                                      steps{
+                          stage('Checkout'){
+                            steps{
                                       {
 
 
