@@ -8,6 +8,7 @@ parameters {
             defaultValue: 'facebook-2.0',
             description: 'facebook project')
            }
+           
      stages {
                             stage('Checkout'){
                                       steps
