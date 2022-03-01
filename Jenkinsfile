@@ -1,4 +1,3 @@
-#PIPELINE for this facebook project in Jenkins.
 
 pipleine{
 
