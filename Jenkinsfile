@@ -12,7 +12,7 @@ parameters {
      stages
                           stage('Checkout'){
                             steps{
-                                      {
+                                      {...
 
 
                                               checkout([$class: 'GitSCM', branches: [[name: '*/facebook-2.0']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/m1alla/facebook.git']]])
