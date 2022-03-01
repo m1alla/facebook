@@ -9,7 +9,7 @@ parameters {
             description: 'facebook project')
            }
      stages {
-                            stage("Checkout'){
+                            stage('Checkout'){
                                       steps
                                       {
 
