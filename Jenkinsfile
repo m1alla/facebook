@@ -22,7 +22,7 @@ parameters {
                              stage('Build'){
                                steps{
                                  script{
-                                    sh ' /home/ec2-user/apache-maven-3.8.4/bin/mvn -f /var/lib/jenkins/workspace/maven-pipeline/pom.xml install'
+                                    sh ' /home/ec2-user/apache-maven-3.8.4 -f /var/lib/jenkins/workspace/maven-pipeline/pom.xml install'
                                  }
                                }
                              }
